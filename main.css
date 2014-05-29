@@ -33,22 +33,6 @@ input {
 	font-size: 20px;
 }
 
-#event{
-	position: absolute;
-   top:95%;
-   left:50%;
-   margin-left:-125px; /* -largeur/2 */
-   margin-top:-23px; /* -largeur/2 */
-}
-
-#CP{
-
-	position: absolute;
-   top:125%;
-   left:50%;
-   margin-left:-125px; /* -largeur/2 */
-   margin-top:-23px; /* -largeur/2 */
-}
 
 
 .form-control{
@@ -57,18 +41,6 @@ input {
 	font-size: 20px;
 	width: 250px;
 }
-
-#search_btn{
-	font-family: 'Open Sans', sans-serif;	
-	background-color: #16a8b7;
-	border-color: #16a8b7;
-		position: absolute;
-   top:160%;
-   left:50%;
-   margin-left:-65px; /* -largeur/2 */
-   margin-top:-23px; /* -largeur/2 */
-}
-
 
 
 .full {
@@ -119,3 +91,56 @@ input {
 #DJ_btn i{
 	color: white;
 }
+
+#col_deux{
+	margin-top: 20px;
+	left:50%;
+	margin-left:-145px;
+}
+
+#col_trois{
+
+	margin-top: 0px;
+	left:50%;
+	margin-left:-145px;
+}
+
+#col_quatre{
+	margin-top: 20px;
+	left:50%;
+	margin-left:-145px;
+}
+
+#col_cinq{
+	margin-top: 0px;
+	left:50%;
+	margin-left:-145px;
+}
+/*
+#CP{
+
+	position: absolute;
+   top:125%;
+   left:50%;
+   margin-left:-125px;
+   margin-top:-23px;
+}*/
+
+
+#search_btn{
+	font-family: 'Open Sans', sans-serif;	
+	background-color: #16a8b7;
+	border-color: #16a8b7;
+   left:50%;
+   margin-top: 20px;
+} 
+
+
+/*
+#event{
+	position: absolute;
+    top:95%;
+   left:50%;
+   margin-left:-125px;
+   margin-top:-23px;
+}*/

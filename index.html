@@ -88,33 +88,58 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 col-sm-12">
-                <h1>Vous recherchez un DJ?</h1>
-                <br>
-                <br>
-                <form accept-charset="UTF-8" action="/fr/djs/search" role="form" method="get">
-                    <div class="form-group" id="event">
-                        <label for="user_event">Vous organisez un</label>
-                        <br>
-                        <select type="code_P" id="user_event" class="form-control input-lg" id="Input_CP" placeholder="Votre code postal">
-                            <option></option>
-                            <option>Mariage</option>
-                            <option>Baptême</option>
-                            <option>Evenement d'entreprise</option>
-                            <option>Anniversaire</option>
-                            <option>Autre</option>
-                        </select>
-                    </div>
-                    <div class="form-group" id="CP">
-                        <label for="user_location">L'évenement aura lieu à</label>
-                        <br>
-                        <input type="event" id="user_location" class="form-control input-lg" id="InputEvent" placeholder="Votre code postal">
-                    </div>
-
-                    <button type="submit" id="search_btn" class="btn btn-primary btn-lg">Rechercher</button>
-                </form>
+            <div class="col-lg-12 col-sm-12" id="col_un">
+                <h1>Vous cherchez un DJ?</h1>
             </div>
         </div>
+        <form accept-charset="UTF-8" action="/fr/djs/search" role="form" method="get">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                    <div class="form-group" id="event">
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12" id="col_deux">
+                                <label for="user_event">Vous organisez un</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12" id="col_trois">
+                                <select type="code_P" id="user_event" class="form-control input-lg" id="Input_CP" placeholder="Votre code postal">
+                                    <option></option>
+                                    <option>Mariage</option>
+                                    <option>Baptême</option>
+                                    <option>Evenement d'entreprise</option>
+                                    <option>Anniversaire</option>
+                                    <option>Autre</option>
+                                </select>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                    <div class="form-group" id="CP">
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12" id="col_quatre">
+                                <label for="user_location">L'évenement aura lieu à</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12"  id="col_cinq">
+                                <input type="event" id="user_location" class="form-control input-lg" id="InputEvent" placeholder="Ville ou code postal">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+
+                    <button type="submit" id="search_btn" class="btn btn-primary btn-lg">Rechercher</button>
+                </div>
+            </div>
+        </form>
+
     </div>
 
 
